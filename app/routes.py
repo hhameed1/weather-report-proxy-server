@@ -37,4 +37,3 @@ def get_weather():
         params={"lat": lat_query, "lon": lon_query, "appid": weather_key}
     )
     return response.json()
-
